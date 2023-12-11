@@ -46,6 +46,9 @@ if __name__ == '__main__':
         fn=qa_manager,
         inputs=[gr.Textbox(label="What are you looking for?", info="Search inside PDFs.")],
         outputs=[gr.Textbox(label="Results")],
+        title="Smart Q&A Application with OpenAI and Pinecone Integration",
+        description="A 'retrieval augmented generation' (RAG) app with Langchain and OpenAI in"
+                    " Python + Gradio interface + Pinecone vector database."
     )
 
     # Launch Q&A app
