@@ -50,3 +50,6 @@ pip install -r requirements.txt
 python app.py
 ```
 4. Visit http://127.0.0.1:7860/ on your browser.
+
+## Preview:
+<img src="qa.png" width="750px" />
