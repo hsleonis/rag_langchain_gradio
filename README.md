@@ -39,3 +39,14 @@ The "Smart Q&A Application with OpenAI and Pinecone Integration" is a simple Pyt
 
 Overall, this application amalgamates cutting-edge technologies to create an intelligent Q&A system, making it a valuable tool for tasks that require natural language understanding and efficient document retrieval.
 
+## How to use:
+1. Install requirements:
+```python
+pip install -r requirements.txt
+```
+2. Place your Environment variables in the `.env` file.
+3. Run the app:
+```python
+python app.py
+```
+4. Visit http://127.0.0.1:7860/ on your browser.
