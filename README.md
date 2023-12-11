@@ -1,6 +1,8 @@
 # Smart Q&A Application with OpenAI and Pinecone Integration
 ## A "retrieval augmented generation" (RAG) app with Langchain and OpenAI in Python + Gradio interface + Pinecone vector database.
 
+<img src="cover.png" width="750px" />
+
 The "Smart Q&A Application with OpenAI and Pinecone Integration" is a simple Python application designed for question-answering tasks. Leveraging powerful technologies such as OpenAI for natural language understanding and `Pinecone` for efficient similarity search, this application offers a range of features to enhance the user's experience:
 
 1. **Document Processing:**
