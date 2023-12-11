@@ -53,3 +53,9 @@ python app.py
 
 ## Preview:
 <img src="qa.png" width="750px" />
+
+## Links:
+- Pinecone: https://www.pinecone.io
+- OpenAI: https://openai.com
+- LangChain: https://www.langchain.com
+- Gradio: https://www.gradio.app
