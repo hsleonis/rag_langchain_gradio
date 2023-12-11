@@ -8,8 +8,9 @@ The "Smart Q&A Application with OpenAI and Pinecone Integration" is a simple Pyt
    - Documents are efficiently processed and broken down into smaller, manageable chunks.
 
 2. **Embeddings Generation with OpenAI:**
-   - Utilizes the OpenAI API to generate embeddings for the processed document chunks.
+   - Utilizes the `OpenAI API` to generate embeddings from `LLM`s for the processed document chunks.
    - Embeddings capture semantic information, enabling better understanding of the content.
+   - Leverage "retrieval augmented generation" **(RAG)** from `Langchain`.
 
 3. **Efficient Search with Pinecone:**
    - Establishes a connection to the Pinecone service for efficient similarity search.
@@ -23,7 +24,7 @@ The "Smart Q&A Application with OpenAI and Pinecone Integration" is a simple Pyt
    - Implements a question-answer chain from the OpenAI language model, enabling a dynamic and contextualized Q&A experience.
 
 6. **User-Friendly Gradio Interface:**
-   - The application features an interactive user interface created with Gradio.
+   - The application features an interactive user interface created with `Gradio`.
    - Users can input their queries using a textbox, enhancing user interaction and accessibility.
 
 7. **Real-Time Results Display:**
@@ -34,7 +35,7 @@ The "Smart Q&A Application with OpenAI and Pinecone Integration" is a simple Pyt
    - Easily extendable to display source urls.
 
 9. **Smart Search Inside PDFs:**
-   - The app includes an informative user prompt, encouraging users to search inside PDFs, suggesting its capability to handle PDF documents.
+   - The app includes an informative user prompt, encouraging users to search inside `PDF`s, suggesting its capability to handle PDF documents.
 
 Overall, this application amalgamates cutting-edge technologies to create an intelligent Q&A system, making it a valuable tool for tasks that require natural language understanding and efficient document retrieval.
 
